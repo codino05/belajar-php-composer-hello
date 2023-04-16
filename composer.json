@@ -1,0 +1,13 @@
+{
+    "name": "quenull/php-composer",
+    "description": "belajar php composer",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "quenull\\": "src/"
+        }
+    },
+    "require": {
+        "monolog/monolog": "3.3.1"
+    }
+}
